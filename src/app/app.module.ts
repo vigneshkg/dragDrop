@@ -13,6 +13,7 @@ import { LayoutComponent } from './layout/layout.component';
 import { TableComponent } from './my-table/my-table.component';
 import { MyBoxComponent } from './my-box/my-box.component';
 import { BasicInfoComponent } from './basic-info/basic-info.component';
+import { ProgressBarComponent } from './progress-bar/progress-bar.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { BasicInfoComponent } from './basic-info/basic-info.component';
     LayoutComponent,
     TableComponent,
     MyBoxComponent,
-    BasicInfoComponent
+    BasicInfoComponent,
+    ProgressBarComponent
   ],
   imports: [
     BrowserModule,
